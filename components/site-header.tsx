@@ -63,13 +63,6 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-2 z-50" aria-label="Zerocap Funding Home">
           <Image alt="logo" src={'/logo.png'} width={200} height={80}/>
         </Link>
-        <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "tjl708y978");
-        </script>
         
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-8 text-[15px] font-semibold text-[#0B2B4A] md:flex">
